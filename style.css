@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+#hd1 {
+    background-color:#333333;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#hd1 h1 {
+    position: relative;
+    left: -400px;
+}
+header dd {
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    bottom: 58px;
+}
+#hd1 h1, #hd1 dd, #hd2 h1, button, #sec1 h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#hd1 button {
+    background-color: #629f2c;
+    padding: 10px;
+    border-color: #629f2c;
+}
+#hd2 {
+    background-color: #202020;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#hd2 h2 {
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ababab;
+    position: relative;
+    bottom: 20px;
+}
+#hd2 button, #sec1 button, #sec3 button {
+    background-color: #629f2c;
+    font-size:larger;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #629f2c;
+}
+div ul {
+    position: relative;
+    display: inline-block;
+    border-style: solid;
+    border-color: #ececec;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 40px;
+}
+div {
+    display: inline-block;
+}
+.ul1 {
+    padding-top: 68px;
+}
+.ul2 {
+    padding-top: 54px;
+}
+.ul3 {
+    padding-top: 41px;
+}
+#sec1, #sec3 {
+    padding: 60px;
+}
+#sec1 h1, #sec3 h1 {
+    color: #2f434b;
+}
+#sec1 h3, #sec3 h3{
+    color: #7c7c7c; 
+    position: relative;
+    bottom: 20px;
+}
+#sec1 h1, #sec2 h1, #sec3 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+#sec2 {
+    background-color: #629f2c;
+    padding: 60px;
+    color: #f9fbf5;
+}
+#sec2 h3 {
+    color:#bbdbb6;
+    position: relative;
+    bottom: 20px;
+}
+#sec2 p, #sec2 a{
+    color: #dbebd7
+}
+#sec2 button {
+    background-color: #ffffff;
+    font-size:larger;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #ffffff;
+    color: #a9cf9b;
+}
+#sec3 p {
+    color: #9a9a9a;
+}
+footer {
+    background-color: #333333;
+    padding: 60px;
+    color: #ffffff;
+}
